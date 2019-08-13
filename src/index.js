@@ -2,15 +2,15 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 
 function Hello(props) {
-    return <h1>Hello, {props.name}</h1>;
+    return <p>Hello, {props.name}!</p>;
 }
 
 function Hola(props) {
-    return <h1><span lang="es">Hola, {props.name}</span></h1>;
+    return <p><span lang="es">Hola, {props.name}!</span></p>;
 }
 
 function Bonjour(props) {
-    return <h1><span lang="fr">Bonjour, {props.name}</span></h1>;
+    return <p><span lang="fr">Bonjour, {props.name}!</span></p>;
 }
 
 function GreetEverybody() {
