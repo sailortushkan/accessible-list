@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`displays all greetings 1`] = `
+<DocumentFragment>
+  <div
+    data-testid="theroot"
+  >
+    <p>
+      <span
+        lang="es"
+      >
+        Hola, Maria!
+      </span>
+    </p>
+    <p>
+      Hello, Sara!
+    </p>
+    <p>
+      <span
+        lang="fr"
+      >
+        Bonjour, Pierre!
+      </span>
+    </p>
+  </div>
+</DocumentFragment>
+`;

@@ -1,21 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-function Hello(props) {
+export  function Hello(props) {
     return <p>Hello, {props.name}!</p>;
 }
 
-function Hola(props) {
+export  function Hola(props) {
     return <p><span lang="es">Hola, {props.name}!</span></p>;
 }
 
-function Bonjour(props) {
+export  function Bonjour(props) {
     return <p><span lang="fr">Bonjour, {props.name}!</span></p>;
 }
 
-function GreetEverybody() {
+export  function GreetEverybody() {
     return (
-        <div>
+        <div data-testid="theroot">
             <Hola name="Maria" />
             <Hello name="Sara" />
             <Bonjour name="Pierre" />
@@ -23,7 +23,7 @@ function GreetEverybody() {
     )
 }
 
-ReactDOM.render(
-    <GreetEverybody />,
-    document.getElementById('root')
-  );
+// ReactDOM.render(
+//     <GreetEverybody />,
+//     document.getElementById('root')
+//   );
